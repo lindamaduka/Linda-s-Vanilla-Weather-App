@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f8fc;
 }
 
 ul {
@@ -31,6 +32,25 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+}
+
+.btn-primary {
+  text-transform: capitalize;
+  background-color: #5e72e4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #4054b2;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
 }
 .overview {
   margin-bottom: 20px;
@@ -76,6 +96,7 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: #57518c;
 }
 
 .h1 {
